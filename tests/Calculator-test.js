@@ -1,5 +1,5 @@
 const { expect } = require('chai')
-const { ethers } = require('ethers')
+const { ethers } = require('hardhat')
 
 describe('Calculator', function () {
   const nb1 = Math.random(-10, 10)

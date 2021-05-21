@@ -1,160 +1,5 @@
 [
   {
-    "anonymous": false,
-    "inputs": [
-      {
-        "indexed": true,
-        "internalType": "address",
-        "name": "account",
-        "type": "address"
-      },
-      {
-        "indexed": false,
-        "internalType": "int256",
-        "name": "nb1",
-        "type": "int256"
-      },
-      {
-        "indexed": false,
-        "internalType": "int256",
-        "name": "nb2",
-        "type": "int256"
-      },
-      {
-        "indexed": false,
-        "internalType": "int256",
-        "name": "res",
-        "type": "int256"
-      }
-    ],
-    "name": "Add",
-    "type": "event"
-  },
-  {
-    "anonymous": false,
-    "inputs": [
-      {
-        "indexed": true,
-        "internalType": "address",
-        "name": "account",
-        "type": "address"
-      },
-      {
-        "indexed": false,
-        "internalType": "int256",
-        "name": "nb1",
-        "type": "int256"
-      },
-      {
-        "indexed": false,
-        "internalType": "int256",
-        "name": "nb2",
-        "type": "int256"
-      },
-      {
-        "indexed": false,
-        "internalType": "int256",
-        "name": "res",
-        "type": "int256"
-      }
-    ],
-    "name": "Div",
-    "type": "event"
-  },
-  {
-    "anonymous": false,
-    "inputs": [
-      {
-        "indexed": true,
-        "internalType": "address",
-        "name": "account",
-        "type": "address"
-      },
-      {
-        "indexed": false,
-        "internalType": "int256",
-        "name": "nb1",
-        "type": "int256"
-      },
-      {
-        "indexed": false,
-        "internalType": "int256",
-        "name": "nb2",
-        "type": "int256"
-      },
-      {
-        "indexed": false,
-        "internalType": "int256",
-        "name": "res",
-        "type": "int256"
-      }
-    ],
-    "name": "Mod",
-    "type": "event"
-  },
-  {
-    "anonymous": false,
-    "inputs": [
-      {
-        "indexed": true,
-        "internalType": "address",
-        "name": "account",
-        "type": "address"
-      },
-      {
-        "indexed": false,
-        "internalType": "int256",
-        "name": "nb1",
-        "type": "int256"
-      },
-      {
-        "indexed": false,
-        "internalType": "int256",
-        "name": "nb2",
-        "type": "int256"
-      },
-      {
-        "indexed": false,
-        "internalType": "int256",
-        "name": "res",
-        "type": "int256"
-      }
-    ],
-    "name": "Mul",
-    "type": "event"
-  },
-  {
-    "anonymous": false,
-    "inputs": [
-      {
-        "indexed": true,
-        "internalType": "address",
-        "name": "account",
-        "type": "address"
-      },
-      {
-        "indexed": false,
-        "internalType": "int256",
-        "name": "nb1",
-        "type": "int256"
-      },
-      {
-        "indexed": false,
-        "internalType": "int256",
-        "name": "nb2",
-        "type": "int256"
-      },
-      {
-        "indexed": false,
-        "internalType": "int256",
-        "name": "res",
-        "type": "int256"
-      }
-    ],
-    "name": "Sub",
-    "type": "event"
-  },
-  {
     "inputs": [
       {
         "internalType": "int256",
@@ -175,7 +20,7 @@
         "type": "int256"
       }
     ],
-    "stateMutability": "payable",
+    "stateMutability": "pure",
     "type": "function"
   },
   {
@@ -199,7 +44,7 @@
         "type": "int256"
       }
     ],
-    "stateMutability": "payable",
+    "stateMutability": "pure",
     "type": "function"
   },
   {
@@ -223,7 +68,7 @@
         "type": "int256"
       }
     ],
-    "stateMutability": "payable",
+    "stateMutability": "pure",
     "type": "function"
   },
   {
@@ -247,7 +92,7 @@
         "type": "int256"
       }
     ],
-    "stateMutability": "payable",
+    "stateMutability": "pure",
     "type": "function"
   },
   {
@@ -271,7 +116,7 @@
         "type": "int256"
       }
     ],
-    "stateMutability": "payable",
+    "stateMutability": "pure",
     "type": "function"
   }
 ]
